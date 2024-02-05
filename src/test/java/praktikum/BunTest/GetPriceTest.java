@@ -16,7 +16,6 @@ public class GetPriceTest {
     static Faker faker = new Faker();
     private final String name;
     private final Float price;
-    private  Bun bun;
 
     public GetPriceTest (String name, Float price) {
         this.name = name;
